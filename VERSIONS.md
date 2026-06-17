@@ -17,14 +17,14 @@ Current versions of all skills. Agents can compare against local versions to che
 | competitors | 2.0.0 | 2026-05-05 |
 | content-strategy | 2.0.0 | 2026-05-05 |
 | copy-editing | 2.0.0 | 2026-05-05 |
-| copywriting | 2.0.0 | 2026-05-05 |
+| copywriting | 2.0.1 | 2026-06-16 |
 | cro | 2.0.0 | 2026-05-05 |
 | customer-research | 2.0.0 | 2026-05-05 |
 | directory-submissions | 2.0.0 | 2026-05-05 |
 | emails | 2.0.0 | 2026-05-05 |
 | free-tools | 2.0.0 | 2026-05-05 |
 | image | 2.0.1 | 2026-05-18 |
-| launch | 2.0.0 | 2026-05-05 |
+| launch | 2.0.1 | 2026-06-16 |
 | lead-magnets | 2.0.0 | 2026-05-05 |
 | marketing-ideas | 2.0.0 | 2026-05-05 |
 | marketing-plan | 1.1.0 | 2026-05-29 |
@@ -34,14 +34,14 @@ Current versions of all skills. Agents can compare against local versions to che
 | ads | 2.0.1 | 2026-05-26 |
 | paywalls | 2.0.0 | 2026-05-05 |
 | popups | 2.0.0 | 2026-05-05 |
-| pricing | 2.0.0 | 2026-05-05 |
+| pricing | 2.0.1 | 2026-06-16 |
 | product-marketing | 2.0.0 | 2026-05-05 |
 | programmatic-seo | 2.0.0 | 2026-05-05 |
 | prospecting | 1.0.0 | 2026-05-26 |
 | public-relations | 1.0.0 | 2026-06-10 |
 | referrals | 2.0.0 | 2026-05-05 |
 | revops | 2.0.0 | 2026-05-05 |
-| sales-enablement | 2.0.0 | 2026-05-05 |
+| sales-enablement | 2.0.1 | 2026-06-16 |
 | schema | 2.0.0 | 2026-05-05 |
 | seo-audit | 2.0.0 | 2026-05-05 |
 | signup | 2.0.0 | 2026-05-05 |
@@ -51,6 +51,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.0.1 | 2026-05-18 |
 
 ## Recent Changes
+
+### 2.5.1 (2026-06-16)
+
+- Bumped `copywriting`, `launch`, `pricing`, and `sales-enablement` from 2.0.0 → 2.0.1 to reflect the description changes that shipped in v2.5.0 (cross-references added pointing to the new `offers` skill). The skill bodies are unchanged; only the frontmatter description picked up a new "For ..., see offers" line. Without the version bump, the repo's update check (which compares VERSIONS.md against local skill metadata) would not surface the routing/discovery change to users with installed copies. Caught by codex review.
 
 ### 2.5.0 (2026-06-16)
 
